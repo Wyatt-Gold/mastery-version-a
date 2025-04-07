@@ -1,0 +1,10 @@
+   17  p *new_token
+   18  p *val_a
+   19  p *val_b
+   20  q
+   21  run testcases/err_ops2.s
+   22  bt
+   23  p *head
+   24  p *head->next
+   25  q
+   26  show commands

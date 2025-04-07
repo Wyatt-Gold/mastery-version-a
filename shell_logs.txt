@@ -1,0 +1,500 @@
+   57  make all
+   58  runner -r traces/amptjp-bal.rep 
+   59  clear
+   60  make clean
+   61  make clean
+   62  clear
+   63  make all
+   64  runner -r traces/amptjp-bal.rep 
+   65  make clean
+   66  make debug
+   67  gdb runner
+   68  clear
+   69  make clean
+   70  make all
+   71  runner -r traces/amptjp-bal.rep 
+   72  clear
+   73  make clean
+   74  make all
+   75  runner -r traces/amptjp-bal.rep 
+   76  clear
+   77  make clean
+   78  make all
+   79  clear
+   80  make clean
+   81  make all
+   82  make clena
+   83  make clean
+   84  make all
+   85  clear
+   86  make clean
+   87  make all
+   88  runner -r traces/amptjp-bal.rep 
+   89  clera
+   90  clear
+   91  make clean
+   92  make all
+   93  runner -r traces/amptjp-bal.rep 
+   94  make clean
+   95  make all
+   96  runner -r traces/short1-bal.rep
+   97  cler
+   98  clear
+   99  make clean
+  100  clear
+  101  make clean
+  102  make all
+  103  make clean
+  104  make all
+  105  clear
+  106  make clean
+  107  make all
+  108  clear
+  109  make clean
+  110  make all
+  111  clear
+  112  runner -r traces/short1-bal.rep
+  113  clear
+  114  make clean
+  115  make all
+  116  clear
+  117  make clean
+  118  make all
+  119  runner -r traces/amptjp-bal.rep
+  120  gdb
+  121  clear
+  122  make clean
+  123  make debug
+  124  gdb runner
+  125  clear
+  126  make clean
+  127  make all
+  128  clear
+  129  runner -r traces/amptjp-bal.rep
+  130  make clean
+  131  make debug
+  132  gdb runner
+  133  make clean
+  134  make all
+  135  clear
+  136  runner -r traces/amptjp-bal.rep
+  137  git add.
+  138  git push
+  139  clear
+  140  make clean
+  141  make all
+  142  runner -r traces/amptjp-bal.rep
+  143  git add.
+  144  git push
+  145  clear
+  146  git add. 
+  147  git push
+  148  clear
+  149  make all
+  150  runner -r traces/amptjp-bal.rep
+  151  make clean
+  152  clear
+  153  git clone https://github.com/CS429-SP2025/shared-repo-version-b-Wyatt-Gold.git
+  154  make clean
+  155  make all
+  156  make mini_ci
+  157  clear
+  158  mini_ci testcases/basic_add.s
+  159  make clean
+  160  make debug
+  161  dgb mini_ci
+  162  gdb mini_ci
+  163  make clean
+  164  make mini_ci
+  165  mini_ci testcases/basic_add.s
+  166  make clean
+  167  make debug
+  168  gdb mini_ci
+  169  make clean
+  170  make mini_ci
+  171  mini_ci basic_add.s
+  172  mini_ci testcases/basic_add.s
+  173  make clean
+  174  make debu
+  175  make debug
+  176  gdb mini_ci
+  177  make clean
+  178  make debug
+  179  gdb mini_ci
+  180  clear
+  181  make clean
+  182  make mini_ci
+  183  mini_ci basic_add.s
+  184  make clena
+  185  make clean
+  186  make mini_ci
+  187  mini_ci testcases/basic_add.s
+  188  clear
+  189  git add.
+  190  git commit
+  191  git add
+  192  git add.
+  193  git commit
+  194  git add .
+  195  git commit -m "final
+  196  git commit -m "final"
+  197  git push
+  198  cd ..
+  199  rm -rf shared-repo-version-b-Wyatt-Gold/
+  200  ls
+  201  rm -r -f shared-repo-version-b-Wyatt-Gold/
+  202  isof | grep 
+  203  isof | grep agate.cs.utexas.edu
+  204  lsof | grep agate.cs.utexas.edu
+  205  lsof | grep wyatt@agate
+  206  lsof | grep wyatt@agate.cs.utexas.edu
+  207  ls
+  208  rm -rf shared-repo-version-b-Wyatt-Gold/
+  209  lsof | grep .nfs0000000008b851dd00004266
+  210  kill -9 4030420
+  211  lsof | grep .nfs0000000008b851dd00004266
+  212  lsof | grep .nfs0000000008b851d800004265
+  213  rm -rf shared-repo-version-b-Wyatt-Gold/
+  214  ls
+  215  quit
+  216  logout
+  217  clear
+  218  logout
+  219  make clean
+  220  make
+  221  clear
+  222  bin/se -i testcases/hw_elts/ec_hw -v 2 -c out
+  223  bin/se -i testcases/hw_elts/ec_hw.tb -v 2 -c out
+  224  clear
+  225  make clean
+  226  clear
+  227  chmod +x bin/se-ref-wk*
+  228  clear
+  229  clear
+  230  make
+  231  clear
+  232  bin/se -i testcases/hw_elts/ec_hw.tb -v 2 -c out
+  233  clear
+  234  make clean
+  235  clear
+  236  git pull
+  237  clear
+  238  clear
+  239  make
+  240  make clean
+  241  clear
+  242  git pull
+  243  clera
+  244  clear
+  245  make
+  246  bin/se -i testcases/hw_elts/alu_hw.tb -v 2 -c out  
+  247  clear
+  248  make 
+  249  bin/se -i testcases/hw_elts/regfile_hw.tb -v 2 -c out 
+  250  bin/se -i testcases/hw_elts/regfile_hw -v 2 -c out 
+  251  bin/se -i testcases/hw_elts/regfile_hw.tb -v 2 -c out 
+  252  chmod +x bin/se-ref-wk*
+  253  bin/se -i testcases/hw_elts/regfile_hw.tb -v 2 -c out 
+  254  clear
+  255  make all
+  256  make
+  257  gdb bin/se
+  258  clear
+  259  make clean
+  260  clear
+  261  git pull
+  262  git add .
+  263  git commit -m "Added some code to the regile...Don't think I understood it becasue there is no way that it's that easy"
+  264  git push
+  265  clear
+  266  mkw
+  267  clear
+  268  make
+  269  bin/se -i testcases/hw_elts/regfile_hw.tb -v 2 -c out 
+  270  clear
+  271  make 
+  272  gdb bin/se
+  273  clear
+  274  make 
+  275  make clean
+  276  clear
+  277  make week1
+  278  bin/text-hw
+  279  bin/test-hw
+  280  clera
+  281  make clean
+  282  clear
+  283  make week1
+  284  bin/test-hw
+  285  clear
+  286  make clea
+  287  make clean
+  288  make week1
+  289  bin/test-hw
+  290  clear
+  291  make clean
+  292  clear
+  293  make all
+  294  make week1
+  295  clear
+  296  clear
+  297  make week1
+  298  bin/test-hw
+  299  clear
+  300  make week1
+  301  bin/test-hw
+  302  clear
+  303  clear
+  304  make week1
+  305  bin/test-hw
+  306  clear
+  307  make clean
+  308  make week1
+  309  bin/test-hw
+  310  clear
+  311  make clean
+  312  clear
+  313  make clean
+  314  bin/test-hw
+  315  make clean
+  316  bin/test-hw
+  317  make all
+  318  make week1
+  319  bin/test-hw
+  320  make week1
+  321  bin/test-hw
+  322  make clean
+  323  clear
+  324  make week1
+  325  bin/test-hw
+  326  clear
+  327  make clean
+  328  clear
+  329  clear
+  330  make week1
+  331  bin/test-hw
+  332  clear
+  333  make clean
+  334  clear
+  335  clera
+  336  make week1
+  337  bin/test-hw
+  338  clear
+  339  make clean
+  340  clear
+  341  make week1
+  342  bin/test-hw
+  343  clear
+  344  make clean
+  345  clear
+  346  make week1
+  347  bin/test-hw
+  348  clear
+  349  make clean
+  350  make week1
+  351  bin/test-hw
+  352  clear
+  353  make clean
+  354  clear
+  355  make week1
+  356  bin/test-hw
+  357  clear
+  358  make clean
+  359  clear
+  360  git pull
+  361  git add .
+  362  git commit
+  363  git add .
+  364  git commit -m "oabsd"
+  365  git push
+  366  clear
+  367  make week1
+  368  bin/test-hw
+  369  clear
+  370  make clean
+  371  make week1
+  372  bin/test-hw
+  373  clear
+  374  make xlean
+  375  make clean
+  376  clear
+  377  make week1
+  378  bin/test-hw
+  379  clear
+  380  make clean
+  381  clear
+  382  make week1
+  383  bin/test-hw -v 2
+  384  clear
+  385  make clean
+  386  make week1
+  387  bin/test-hw -v 2
+  388  bin/test-hw 
+  389  clera
+  390  clear
+  391  make clean
+  392  make week1
+  393  bin/test-hw 
+  394  clear
+  395  make clean
+  396  make all
+  397  make clean
+  398  clear
+  399  make week1
+  400  bin/test-hw 
+  401  clear
+  402  make clean
+  403  make week1
+  404  bin/test-hw 
+  405  bin/test-hw -v 2
+  406  clear
+  407  make clean
+  408  make week1
+  409  bin/test-hw
+  410  bin/test-hw -v 1
+  411  bin/test-hw -v 2
+  412  clear
+  413  make clean
+  414  clear
+  415  git add .
+  416  git commit -m
+  417  git commit -m "asd"
+  418  git push
+  419  clear
+  420  make week1
+  421  clear
+  422  bin/test-hw -v 2
+  423  make clean
+  424  make week1
+  425  bin/test-hw -v 2
+  426  clera
+  427  clear
+  428  make clean
+  429  make week1
+  430  bin/test-hw -v 2
+  431  clear
+  432  make clean
+  433  make week1
+  434  bin/test-hw -v 2
+  435  clear
+  436  make clean
+  437  make week1
+  438  bin/test-hw -v 2
+  439  clear
+  440  make clean
+  441  clear
+  442  git add .
+  443  git commit -m "Fixed errors and compelted week1"
+  444  git push
+  445  clear
+  446  git pull
+  447  clear
+  448  make
+  449  make clean
+  450  clear
+  451  git pull
+  452  git add .
+  453  git commit -m "Computer acting weird"
+  454  git push
+  455  clear
+  456  make
+  457  clear
+  458  make clean
+  459  make
+  460  clear
+  461  make clean
+  462  make
+  463  make clean
+  464  clear
+  465  make
+  466  make clean
+  467  clear
+  468  git add .
+  469  git commit -m "laknf"
+  470  git push
+  471  clear
+  472  make
+  473  make clean
+  474  clear
+  475  git add .
+  476  git commit -m "Nerd"
+  477  git push
+  478  git pull
+  479  git config pull.rebase false
+  480  clear
+  481  git pull
+  482  git pull
+  483  clear
+  484  clear
+  485  touch ~/.gdbinit
+  486  echo "set history save on" > ~/.gdbinit
+  487  cat ~/.gdbinit
+  488  clear
+  489  mkdir mastery
+  490  ls
+  491  clear
+  492  cd mastery/
+  493  clear
+  494  pwd
+  495  clear
+  496  git clone git@github.com:Wyatt-Gold/mastery-version-a.git
+  497  clear
+  498  ls
+  499  clear
+  500  logout
+  501  make
+  502  make check
+  503  clear
+  504  make debug
+  505  gdb ./mini_ci
+  506  make 
+  507  make check
+  508  clear
+  509  make check
+  510  clear
+  511  make clean
+  512  clear
+  513  make debug
+  514  gdb ./mini_cireference
+  515  clear
+  516  make clean
+  517  gdb mini_ci
+  518  clear
+  519  make clean
+  520  make debug
+  521  gdb mini_ci
+  522  clear
+  523  make clean
+  524  make 
+  525  make check
+  526  clear
+  527  make clean
+  528  make debuf
+  529  make debug 
+  530  gdb mini_ci
+  531  clers
+  532  clear
+  533  make clean
+  534  clear
+  535  make
+  536  ./mini_ci testcases/err_ops.s
+  537  clear
+  538  make clean
+  539  make debug
+  540  gdb mini_ci
+  541  clear
+  542  make clean
+  543  make 
+  544  make check
+  545  clear
+  546  make clean
+  547  clear
+  548  make debug
+  549  gdb mini_ci
+  550  clear
+  551  make clean
+  552  make 
+  553  make check
+  554  clesar
+  555  clear
+  556  history > shell_logs.txt
